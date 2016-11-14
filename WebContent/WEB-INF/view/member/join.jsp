@@ -7,6 +7,7 @@
 아이디 : <input type="text" name="id" maxlength="20" placeholder="4~20"/><br/>
 비밀번호 : <input type="password" name="pass" id="pass" maxlength="20" placeholder="6~20"/><br/>
 비밀번호 확인 : <input type="password" id="passConfirm"/><br/>
+이름 : <input type="text" maxlength="20" name="name"/>
 성별 : 남<input type="radio" name="gender" value="남"/>여<input type="radio" name="gender" value="여"/><br/>
 주소 : 
 <input type="text" id="sample4_postcode" placeholder="우편번호" name="address1">

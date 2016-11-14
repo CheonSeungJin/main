@@ -23,6 +23,7 @@ public class MemberController {
 	}
 	@RequestMapping("/joinConfirm")
 	public String joinConfirm(MemberDTO dto){
+		System.out.println(dto.getGender());
 		boolean r = memberService.joinConfirm(dto);
 		if(r){
 			return "tw:member/joinConfirm";
