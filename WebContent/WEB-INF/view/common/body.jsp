@@ -8,7 +8,7 @@
     	<input type="submit" value="입장!" class="btn btn-info">
     </form>    
  
-  </div>
+  </div>  
 </div>
   
 <div class="container-fluid bg-3 text-center">
