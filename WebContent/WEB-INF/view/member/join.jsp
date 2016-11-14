@@ -4,9 +4,10 @@
 <form action="/member/joinConfirm" method="post">
 <div align="center">
 <h2>회원 가입</h2>
-아이디 : <input type="text" name="id"/><br/>
-비밀번호 : <input type="password" name="pass" id="pass"/><br/>
+아이디 : <input type="text" name="id" maxlength="20" placeholder="4~20"/><br/>
+비밀번호 : <input type="password" name="pass" id="pass" maxlength="20" placeholder="6~20"/><br/>
 비밀번호 확인 : <input type="password" id="passConfirm"/><br/>
+성별 : 남<input type="radio" name="gender" value="남"/>여<input type="radio" name="gender" value="여"/><br/>
 주소 : 
 <input type="text" id="sample4_postcode" placeholder="우편번호" name="address1">
 <input type="button" onclick="sample4_execDaumPostcode()" value="우편번호 찾기"><br/>
@@ -72,7 +73,7 @@
 	<option value="010">010</option>
 	<option value="02">02</option>
 	<option value="019">019</option>
-</select>
+	</select>
 -<input type="text" name="phone2"/>
 -<input type="text" name="phone3"/><br/>
 이메일 : <input type="email" name="email"/><br/>

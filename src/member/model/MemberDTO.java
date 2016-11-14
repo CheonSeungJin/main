@@ -10,7 +10,6 @@ public class MemberDTO {
 	int phone2;
 	int phone3;
 	String name;
-	Date birth;
 	String address1;
 	String address2;
 	String address3;
@@ -59,12 +58,6 @@ public class MemberDTO {
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
-	public Date getBirth() {
-		return birth;
-	}
-	public void setBirth(Date birth) {
-		this.birth = birth;
 	}
 	public String getAddress1() {
 		return address1;
