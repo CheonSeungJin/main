@@ -13,7 +13,7 @@ public class MemberService {
 	public boolean joinConfirm(MemberDTO dto){
 		SqlSession ss = fac.openSession();
 		try{			
-			int r = ss.insert("member.insert",dto);
+			int r = ss.insert("member.insertMember",dto);
 			if(r==1){
 				return true;
 			}else{
