@@ -3,6 +3,8 @@ package member.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import member.model.MemberDTO;
+
 @Controller
 @RequestMapping("/member")
 public class MemberController {
@@ -16,7 +18,7 @@ public class MemberController {
 		return "tw:member/join";
 	}
 	@RequestMapping("/joinConfirm")
-	public String joinConfirm(){
+	public String joinConfirm(MemberDTO dto){
 		
 		return "tw:member/joinConfirm";
 	}
